@@ -144,7 +144,7 @@ class ClientTcpTPThread implements Runnable {
 			BufferedReader reader = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
 			String stopData = "STOP\n";
 			//Test data transfer 
-			int loop = (int) (totalBytes/transferBytes/2); //2 --> 1 read and 1 write operation
+			int loop = (int) (totalBytes/transferBytes); //1 --> 1 read operation
 			long start = System.nanoTime();
 			long endLatency  = System.nanoTime();
 			for (int i=0; i < loop; i++) {
