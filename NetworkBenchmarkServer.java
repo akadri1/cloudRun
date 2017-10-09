@@ -16,7 +16,7 @@ public class NetworkBenchmarkServer {
 	private ExecutorService executorService;
 
 	public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
-		(new NetworkBenchmarkServer(8)).startServer(9090);
+		(new NetworkBenchmarkServer(1)).startServer(9090);
 	}
 
 	NetworkBenchmarkServer(int noOfThreads) {

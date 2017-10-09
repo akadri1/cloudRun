@@ -1,0 +1,4 @@
+ThreadCount:1	Latency: 361.3655ns	Throughput: 34.902077 GigaBits/s   	Bits:1.0E9
+ThreadCount:2	Latency: 89.685ns	Throughput: 37.69662 GigaBits/s   	Bits:1.0E9
+ThreadCount:4	Latency: 16.710812ns	Throughput: 36.78877 GigaBits/s   	Bits:1.0E9
+ThreadCount:8	Latency: 10.382688ns	Throughput: 37.560104 GigaBits/s   	Bits:1.0E9
