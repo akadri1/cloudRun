@@ -1,0 +1,40 @@
+Exception in thread "main" java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(SeConnection accepted
+No of 8KBytes: 500000	Time:30.626808 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:37.086037 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:29.863445 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:30.341595 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:30.022827 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:34.35135 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:71.37866 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:47.169144 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:30.610031 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:30.475813 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:29.452402 sec
+Listening...
+Connection accepted
+No of 8KBytes: 500000	Time:30.240932 sec
+Listening...
